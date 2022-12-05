@@ -12,4 +12,10 @@ public class ProductController {
     {
         return  "WELCOME!!!!!!!!!!!!!";
     }
+
+    @PostMapping("/add")
+    public String add()
+    {
+        return  "ADD PRODUCT DETAILS";
+    }
 }
