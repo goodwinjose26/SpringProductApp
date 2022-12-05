@@ -18,4 +18,10 @@ public class ProductController {
     {
         return  "ADD PRODUCT DETAILS";
     }
+
+    @PostMapping("/view")
+    public String view()
+    {
+        return  "VIEW PRODUCT DETAILS";
+    }
 }
