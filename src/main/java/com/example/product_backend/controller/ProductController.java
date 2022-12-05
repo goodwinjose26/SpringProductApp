@@ -24,4 +24,9 @@ public class ProductController {
     {
         return  "VIEW PRODUCT DETAILS";
     }
+    @PostMapping("/edit")
+    public String edit()
+    {
+        return  "EDIT PRODUCT DETAILS";
+    }
 }
