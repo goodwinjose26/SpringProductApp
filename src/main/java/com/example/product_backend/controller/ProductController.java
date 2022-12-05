@@ -29,4 +29,9 @@ public class ProductController {
     {
         return  "EDIT PRODUCT DETAILS";
     }
+    @PostMapping("/search")
+    public String search()
+    {
+        return  "SEARCH PRODUCT DETAILS";
+    }
 }
